@@ -6,7 +6,7 @@ Para iniciar proyecto
 Primero crear un entorno conda
 
 ```bash
-conda create -n "env_name" python3.11
+conda create -n "env_name" python=3.11
 ```
 
 ```bash
