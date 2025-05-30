@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/3802e45161204286bf03642c2c2ad2dd/artifacts
+end_time: 1748608208920
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 3802e45161204286bf03642c2c2ad2dd
+run_name: blushing-vole-403
+run_uuid: 3802e45161204286bf03642c2c2ad2dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748608201820
+status: 3
+tags: []
+user_id: Santiago

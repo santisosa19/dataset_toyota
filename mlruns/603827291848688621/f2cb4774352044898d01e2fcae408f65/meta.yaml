@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/603827291848688621/f2cb4774352044898d01e2fcae408f65/artifacts
+end_time: 1748346544822
+entry_point_name: ''
+experiment_id: '603827291848688621'
+lifecycle_stage: active
+run_id: f2cb4774352044898d01e2fcae408f65
+run_name: PCR_FullEDA_DeepDive_Run
+run_uuid: f2cb4774352044898d01e2fcae408f65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748346499433
+status: 3
+tags: []
+user_id: Santiago

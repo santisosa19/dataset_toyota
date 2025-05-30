@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/47b22a5fa89b4b7795893f03d4ff196d/artifacts
+end_time: 1748625372301
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 47b22a5fa89b4b7795893f03d4ff196d
+run_name: incongruous-dog-798
+run_uuid: 47b22a5fa89b4b7795893f03d4ff196d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748625360228
+status: 3
+tags: []
+user_id: Santiago

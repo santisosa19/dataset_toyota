@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/5e43106ae3a54b5080b33a70b0c26122/artifacts
+end_time: 1748608642441
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 5e43106ae3a54b5080b33a70b0c26122
+run_name: secretive-toad-60
+run_uuid: 5e43106ae3a54b5080b33a70b0c26122
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748608633050
+status: 3
+tags: []
+user_id: Santiago

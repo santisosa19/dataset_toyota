@@ -1,0 +1,54 @@
+--- Log de Selección y Eliminación de Características ---
+
+Dataset Original - Columnas (37): ['Id', 'Model', 'Price', 'Age_08_04', 'Mfg_Month', 'Mfg_Year', 'KM', 'Fuel_Type', 'HP', 'Met_Color', 'Automatic', 'cc', 'Doors', 'Cylinders', 'Gears', 'Quarterly_Tax', 'Weight', 'Mfr_Guarantee', 'BOVAG_Guarantee', 'Guarantee_Period', 'ABS', 'Airbag_1', 'Airbag_2', 'Airco', 'Automatic_airco', 'Boardcomputer', 'CD_Player', 'Central_Lock', 'Powered_Windows', 'Power_Steering', 'Radio', 'Mistlamps', 'Sport_Model', 'Backseat_Divider', 'Metallic_Rim', 'Radio_cassette', 'Tow_Bar']
+
+Paso 1a: Eliminación Manual Inicial - Eliminadas: ['Id', 'Model']
+Paso 1a: Eliminación Manual Inicial - Eliminada: Cylinders (varianza cero)
+Paso 1c: Separación de X e Y. Target: Price_log
+  Columnas en X antes de capping (33): ['Age_08_04', 'Mfg_Month', 'Mfg_Year', 'KM', 'Fuel_Type', 'HP', 'Met_Color', 'Automatic', 'cc', 'Doors', 'Gears', 'Quarterly_Tax', 'Weight', 'Mfr_Guarantee', 'BOVAG_Guarantee', 'Guarantee_Period', 'ABS', 'Airbag_1', 'Airbag_2', 'Airco', 'Automatic_airco', 'Boardcomputer', 'CD_Player', 'Central_Lock', 'Powered_Windows', 'Power_Steering', 'Radio', 'Mistlamps', 'Sport_Model', 'Backseat_Divider', 'Metallic_Rim', 'Radio_cassette', 'Tow_Bar']
+
+Paso 1d: Tratamiento de Outliers en X usando IQR (multiplicador=1.5)
+  - Columna 'Age_08_04': Capping aplicado. Límites calculados: [5.00, 109.00].
+  - Columna 'Mfg_Month': No se aplicó capping (valores dentro de límites [-4.50, 15.50]).
+  - Columna 'Mfg_Year': No se aplicó capping (valores dentro de límites [1993.50, 2005.50]).
+  - Columna 'KM': Capping aplicado. Límites calculados: [-23031.12, 153051.88].
+  - Columna 'HP': Capping aplicado. Límites calculados: [60.00, 140.00].
+  - Columna 'Met_Color': No se aplicó capping (valores dentro de límites [-1.50, 2.50]).
+  - Columna 'Automatic': Capping aplicado. Límites calculados: [0.00, 0.00].
+  - Columna 'cc': Capping aplicado. Límites calculados: [1100.00, 1900.00].
+  - Columna 'Doors': No se aplicó capping (valores dentro de límites [0.00, 8.00]).
+  - Columna 'Gears': Capping aplicado. Límites calculados: [5.00, 5.00].
+  - Columna 'Quarterly_Tax': Capping aplicado. Límites calculados: [45.00, 109.00].
+  - Columna 'Weight': Capping aplicado. Límites calculados: [972.50, 1152.50].
+  - Columna 'Mfr_Guarantee': No se aplicó capping (valores dentro de límites [-1.50, 2.50]).
+  - Columna 'BOVAG_Guarantee': Capping aplicado. Límites calculados: [1.00, 1.00].
+  - Columna 'Guarantee_Period': Capping aplicado. Límites calculados: [3.00, 3.00].
+  - Columna 'ABS': Capping aplicado. Límites calculados: [1.00, 1.00].
+  - Columna 'Airbag_1': Capping aplicado. Límites calculados: [1.00, 1.00].
+  - Columna 'Airbag_2': No se aplicó capping (valores dentro de límites [-1.50, 2.50]).
+  - Columna 'Airco': No se aplicó capping (valores dentro de límites [-1.50, 2.50]).
+  - Columna 'Automatic_airco': Capping aplicado. Límites calculados: [0.00, 0.00].
+  - Columna 'Boardcomputer': No se aplicó capping (valores dentro de límites [-1.50, 2.50]).
+  - Columna 'CD_Player': Capping aplicado. Límites calculados: [0.00, 0.00].
+  - Columna 'Central_Lock': No se aplicó capping (valores dentro de límites [-1.50, 2.50]).
+  - Columna 'Powered_Windows': No se aplicó capping (valores dentro de límites [-1.50, 2.50]).
+  - Columna 'Power_Steering': Capping aplicado. Límites calculados: [1.00, 1.00].
+  - Columna 'Radio': Capping aplicado. Límites calculados: [0.00, 0.00].
+  - Columna 'Mistlamps': No se aplicó capping (valores dentro de límites [-1.50, 2.50]).
+  - Columna 'Sport_Model': No se aplicó capping (valores dentro de límites [-1.50, 2.50]).
+  - Columna 'Backseat_Divider': Capping aplicado. Límites calculados: [1.00, 1.00].
+  - Columna 'Metallic_Rim': Capping aplicado. Límites calculados: [0.00, 0.00].
+  - Columna 'Radio_cassette': Capping aplicado. Límites calculados: [0.00, 0.00].
+  - Columna 'Tow_Bar': No se aplicó capping (valores dentro de límites [-1.50, 2.50]).
+
+Paso 1e: Conversión de variables discretas a categóricas.
+  - Columna 'Doors' convertida a tipo 'category'.
+  - Columna 'Gears' convertida a tipo 'category'.
+
+Paso 1h: Después de ColumnTransformer - Features (35): ['Age_08_04', 'Mfg_Month', 'Mfg_Year', 'KM', 'HP', 'Met_Color', 'Automatic', 'cc', 'Quarterly_Tax', 'Weight', 'Mfr_Guarantee', 'BOVAG_Guarantee', 'Guarantee_Period', 'ABS', 'Airbag_1', 'Airbag_2', 'Airco', 'Automatic_airco', 'Boardcomputer', 'CD_Player', 'Central_Lock', 'Powered_Windows', 'Power_Steering', 'Radio', 'Mistlamps', 'Sport_Model', 'Backseat_Divider', 'Metallic_Rim', 'Radio_cassette', 'Tow_Bar', 'Fuel_Type_Diesel', 'Fuel_Type_Petrol', 'Doors_3', 'Doors_4', 'Doors_5']
+
+Características Finales para PCA/Modelo (35): ['Age_08_04', 'Mfg_Month', 'Mfg_Year', 'KM', 'HP', 'Met_Color', 'Automatic', 'cc', 'Quarterly_Tax', 'Weight', 'Mfr_Guarantee', 'BOVAG_Guarantee', 'Guarantee_Period', 'ABS', 'Airbag_1', 'Airbag_2', 'Airco', 'Automatic_airco', 'Boardcomputer', 'CD_Player', 'Central_Lock', 'Powered_Windows', 'Power_Steering', 'Radio', 'Mistlamps', 'Sport_Model', 'Backseat_Divider', 'Metallic_Rim', 'Radio_cassette', 'Tow_Bar', 'Fuel_Type_Diesel', 'Fuel_Type_Petrol', 'Doors_3', 'Doors_4', 'Doors_5']
+
+Paso 2: PCA - Se seleccionan 14 Componentes Principales.
+  Estos 14 PCs son transformaciones de las 35 características de entrada.
+  Tabla de loadings (pca_loadings_selected_components.csv) logueada, mostrando cómo las 35 features contribuyen a los 14 PCs.

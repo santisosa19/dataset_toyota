@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/733231751467063119
+creation_time: 1748290732837
+experiment_id: '733231751467063119'
+last_update_time: 1748290732837
+lifecycle_stage: active
+name: ToyotaCorolla_LassoCV_FeatureSelection

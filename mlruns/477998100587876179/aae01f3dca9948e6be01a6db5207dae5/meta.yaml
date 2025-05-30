@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/aae01f3dca9948e6be01a6db5207dae5/artifacts
+end_time: 1748607906550
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: aae01f3dca9948e6be01a6db5207dae5
+run_name: fearless-skunk-804
+run_uuid: aae01f3dca9948e6be01a6db5207dae5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748607898237
+status: 3
+tags: []
+user_id: Santiago

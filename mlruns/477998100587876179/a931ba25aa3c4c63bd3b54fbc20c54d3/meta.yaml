@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/a931ba25aa3c4c63bd3b54fbc20c54d3/artifacts
+end_time: 1748607000764
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: a931ba25aa3c4c63bd3b54fbc20c54d3
+run_name: wistful-fox-96
+run_uuid: a931ba25aa3c4c63bd3b54fbc20c54d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748606991343
+status: 3
+tags: []
+user_id: Santiago

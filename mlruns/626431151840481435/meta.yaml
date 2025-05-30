@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/626431151840481435
+creation_time: 1748288022810
+experiment_id: '626431151840481435'
+last_update_time: 1748288022810
+lifecycle_stage: active
+name: ToyotaCorolla_PCR_DeepClean_MLflowOnly_FullPlots

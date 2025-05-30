@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/b47f2bc8680d4178b4205c8e9eac96c2/artifacts
+end_time: 1748608201616
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: b47f2bc8680d4178b4205c8e9eac96c2
+run_name: treasured-rook-465
+run_uuid: b47f2bc8680d4178b4205c8e9eac96c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748608195437
+status: 3
+tags: []
+user_id: Santiago

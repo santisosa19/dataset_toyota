@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/754722011849531744/41fcb40cc3064be8ba8050fae6141dcc/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '754722011849531744'
+lifecycle_stage: active
+run_id: 41fcb40cc3064be8ba8050fae6141dcc
+run_name: big-gnat-715
+run_uuid: 41fcb40cc3064be8ba8050fae6141dcc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748518494371
+status: 1
+tags: []
+user_id: Santiago

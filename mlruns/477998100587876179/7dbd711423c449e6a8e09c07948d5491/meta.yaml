@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/7dbd711423c449e6a8e09c07948d5491/artifacts
+end_time: 1748607076919
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 7dbd711423c449e6a8e09c07948d5491
+run_name: able-doe-178
+run_uuid: 7dbd711423c449e6a8e09c07948d5491
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748607069543
+status: 3
+tags: []
+user_id: Santiago

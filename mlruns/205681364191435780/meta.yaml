@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/205681364191435780
+creation_time: 1748288587459
+experiment_id: '205681364191435780'
+last_update_time: 1748288587459
+lifecycle_stage: active
+name: ToyotaCorolla_Comparison_PCR_Ridge_Lasso

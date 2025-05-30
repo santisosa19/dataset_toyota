@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/430770938266091697
+creation_time: 1748289060282
+experiment_id: '430770938266091697'
+last_update_time: 1748289821372
+lifecycle_stage: deleted
+name: ToyotaCorolla_NoGridSearch_Comparison
+tags: {}

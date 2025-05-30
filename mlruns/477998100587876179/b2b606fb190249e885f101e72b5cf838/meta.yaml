@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/b2b606fb190249e885f101e72b5cf838/artifacts
+end_time: 1748607223458
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: b2b606fb190249e885f101e72b5cf838
+run_name: able-owl-310
+run_uuid: b2b606fb190249e885f101e72b5cf838
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748607217214
+status: 3
+tags: []
+user_id: Santiago

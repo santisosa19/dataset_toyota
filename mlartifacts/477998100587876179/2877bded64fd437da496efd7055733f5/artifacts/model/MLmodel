@@ -1,0 +1,35 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 2447
+model_uuid: 7bea0bf7039c4482bc850b9e9ec5a732
+prompts: null
+run_id: 2877bded64fd437da496efd7055733f5
+signature:
+  inputs: '[{"type": "long", "name": "age_08_04", "required": true}, {"type": "double",
+    "name": "km", "required": true}, {"type": "long", "name": "hp", "required": true},
+    {"type": "long", "name": "cc", "required": true}, {"type": "long", "name": "quarterly_tax",
+    "required": true}, {"type": "long", "name": "weight", "required": true}, {"type":
+    "long", "name": "mfr_guarantee", "required": true}, {"type": "long", "name": "guarantee_period",
+    "required": true}, {"type": "long", "name": "automatic_airco", "required": true},
+    {"type": "long", "name": "powered_windows", "required": true}, {"type": "long",
+    "name": "ft__Diesel", "required": true}, {"type": "long", "name": "ft__Petrol",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-30 11:51:45.437296'

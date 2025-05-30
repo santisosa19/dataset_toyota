@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/532373449146164348/653d2c1f32284b3590f4666761f52152/artifacts
+end_time: 1748470768188
+entry_point_name: ''
+experiment_id: '532373449146164348'
+lifecycle_stage: active
+run_id: 653d2c1f32284b3590f4666761f52152
+run_name: PCR_Analysis_DeepClean
+run_uuid: 653d2c1f32284b3590f4666761f52152
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748470741116
+status: 3
+tags: []
+user_id: Santiago

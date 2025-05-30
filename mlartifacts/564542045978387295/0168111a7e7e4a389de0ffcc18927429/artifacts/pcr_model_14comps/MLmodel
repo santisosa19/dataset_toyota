@@ -1,0 +1,42 @@
+artifact_path: pcr_model_14comps
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 4556
+model_uuid: 1a7e58e2af604a639600bca4d2f643c7
+prompts: null
+run_id: 0168111a7e7e4a389de0ffcc18927429
+signature:
+  inputs: '[{"type": "double", "name": "Age_08_04", "required": true}, {"type": "double",
+    "name": "Mfg_Month", "required": true}, {"type": "double", "name": "KM", "required":
+    true}, {"type": "double", "name": "HP", "required": true}, {"type": "double",
+    "name": "Met_Color", "required": true}, {"type": "double", "name": "cc", "required":
+    true}, {"type": "double", "name": "Quarterly_Tax", "required": true}, {"type":
+    "double", "name": "Mfr_Guarantee", "required": true}, {"type": "double", "name":
+    "Airbag_2", "required": true}, {"type": "double", "name": "Airco", "required":
+    true}, {"type": "double", "name": "Boardcomputer", "required": true}, {"type":
+    "double", "name": "Central_Lock", "required": true}, {"type": "double", "name":
+    "Powered_Windows", "required": true}, {"type": "double", "name": "Mistlamps",
+    "required": true}, {"type": "double", "name": "Sport_Model", "required": true},
+    {"type": "double", "name": "Tow_Bar", "required": true}, {"type": "double", "name":
+    "Fuel_Type_Diesel", "required": true}, {"type": "double", "name": "Fuel_Type_Petrol",
+    "required": true}, {"type": "double", "name": "Doors_3", "required": true}, {"type":
+    "double", "name": "Doors_4", "required": true}, {"type": "double", "name": "Doors_5",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-27 11:54:14.704391'

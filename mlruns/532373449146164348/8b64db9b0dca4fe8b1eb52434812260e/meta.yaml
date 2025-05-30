@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/532373449146164348/8b64db9b0dca4fe8b1eb52434812260e/artifacts
+end_time: 1748470088359
+entry_point_name: ''
+experiment_id: '532373449146164348'
+lifecycle_stage: active
+run_id: 8b64db9b0dca4fe8b1eb52434812260e
+run_name: LinearRegression_Standard_Ref_DeepClean
+run_uuid: 8b64db9b0dca4fe8b1eb52434812260e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748470074400
+status: 3
+tags: []
+user_id: Santiago

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/c49237bde48c4bbba5d04ff9c08145ea/artifacts
+end_time: 1748607678930
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: c49237bde48c4bbba5d04ff9c08145ea
+run_name: serious-wolf-464
+run_uuid: c49237bde48c4bbba5d04ff9c08145ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748607672338
+status: 3
+tags: []
+user_id: Santiago

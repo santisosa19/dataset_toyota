@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/d7b62c671d4e41398698204740abb031/artifacts
+end_time: 1748605603800
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: d7b62c671d4e41398698204740abb031
+run_name: overjoyed-carp-441
+run_uuid: d7b62c671d4e41398698204740abb031
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748605589172
+status: 3
+tags: []
+user_id: Santiago

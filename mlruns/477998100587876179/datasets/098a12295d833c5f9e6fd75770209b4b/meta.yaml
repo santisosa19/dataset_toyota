@@ -1,0 +1,30 @@
+digest: bca07e1a
+name: dataset
+profile: '{"num_rows": 276, "num_elements": 9384}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "age_08_04", "required": true},
+  {"type": "long", "name": "mfg_month", "required": true}, {"type": "long", "name":
+  "mfg_year", "required": true}, {"type": "double", "name": "km", "required": true},
+  {"type": "long", "name": "hp", "required": true}, {"type": "long", "name": "met_color",
+  "required": true}, {"type": "long", "name": "automatic", "required": true}, {"type":
+  "long", "name": "cc", "required": true}, {"type": "long", "name": "doors", "required":
+  true}, {"type": "long", "name": "gears", "required": true}, {"type": "long", "name":
+  "quarterly_tax", "required": true}, {"type": "long", "name": "weight", "required":
+  true}, {"type": "long", "name": "mfr_guarantee", "required": true}, {"type": "long",
+  "name": "bovag_guarantee", "required": true}, {"type": "long", "name": "guarantee_period",
+  "required": true}, {"type": "long", "name": "abs", "required": true}, {"type": "long",
+  "name": "airbag_1", "required": true}, {"type": "long", "name": "airbag_2", "required":
+  true}, {"type": "long", "name": "airco", "required": true}, {"type": "long", "name":
+  "automatic_airco", "required": true}, {"type": "long", "name": "boardcomputer",
+  "required": true}, {"type": "long", "name": "cd_player", "required": true}, {"type":
+  "long", "name": "central_lock", "required": true}, {"type": "long", "name": "powered_windows",
+  "required": true}, {"type": "long", "name": "power_steering", "required": true},
+  {"type": "long", "name": "radio", "required": true}, {"type": "long", "name": "mistlamps",
+  "required": true}, {"type": "long", "name": "sport_model", "required": true}, {"type":
+  "long", "name": "backseat_divider", "required": true}, {"type": "long", "name":
+  "metallic_rim", "required": true}, {"type": "long", "name": "radio_cassette", "required":
+  true}, {"type": "long", "name": "tow_bar", "required": true}, {"type": "long", "name":
+  "ft__Diesel", "required": true}, {"type": "long", "name": "ft__Petrol", "required":
+  true}]}'
+source: '{"tags": {"mlflow.user": "Santiago", "mlflow.source.name": "c:\\Users\\sosas\\anaconda3\\envs\\dataset_toyota\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

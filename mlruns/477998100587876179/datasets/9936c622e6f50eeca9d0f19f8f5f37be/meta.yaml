@@ -1,0 +1,9 @@
+digest: aa829420
+name: dataset
+profile: '{"features_shape": [1372, 12], "features_size": 16464, "features_nbytes":
+  131712}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 12]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "Santiago", "mlflow.source.name": "c:\\Users\\sosas\\anaconda3\\envs\\dataset_toyota\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

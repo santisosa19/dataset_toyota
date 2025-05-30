@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/53d7847b4fb849b5acc5dce2c91c35ab/artifacts
+end_time: 1748608159859
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 53d7847b4fb849b5acc5dce2c91c35ab
+run_name: learned-fowl-654
+run_uuid: 53d7847b4fb849b5acc5dce2c91c35ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748608153583
+status: 3
+tags: []
+user_id: Santiago

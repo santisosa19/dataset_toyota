@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/e03d0a5761ad42c0a31487f79ef67635/artifacts
+end_time: 1748608648882
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: e03d0a5761ad42c0a31487f79ef67635
+run_name: bittersweet-bat-557
+run_uuid: e03d0a5761ad42c0a31487f79ef67635
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748608642718
+status: 3
+tags: []
+user_id: Santiago

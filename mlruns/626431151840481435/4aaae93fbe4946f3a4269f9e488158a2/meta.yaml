@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/626431151840481435/4aaae93fbe4946f3a4269f9e488158a2/artifacts
+end_time: 1748288058652
+entry_point_name: ''
+experiment_id: '626431151840481435'
+lifecycle_stage: active
+run_id: 4aaae93fbe4946f3a4269f9e488158a2
+run_name: Toyota_PCR_DeepClean_FullPipeline_Run
+run_uuid: 4aaae93fbe4946f3a4269f9e488158a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748288023225
+status: 4
+tags: []
+user_id: Santiago

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/164993913288935338/127655dcb9e04c48b8cd8ba69d92c3e7/artifacts
+end_time: 1748349876860
+entry_point_name: ''
+experiment_id: '164993913288935338'
+lifecycle_stage: active
+run_id: 127655dcb9e04c48b8cd8ba69d92c3e7
+run_name: EDA_Before_Cleaning
+run_uuid: 127655dcb9e04c48b8cd8ba69d92c3e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748349858749
+status: 3
+tags: []
+user_id: Santiago

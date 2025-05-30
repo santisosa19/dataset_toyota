@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/d41ae11e89b44cc4aca72f4889c06ab5/artifacts
+end_time: 1748607897971
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: d41ae11e89b44cc4aca72f4889c06ab5
+run_name: abrasive-shark-101
+run_uuid: d41ae11e89b44cc4aca72f4889c06ab5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748607888556
+status: 3
+tags: []
+user_id: Santiago

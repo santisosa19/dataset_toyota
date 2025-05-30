@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/e73422139c8f4a75b778268cb409d4e3/artifacts
+end_time: 1748607254502
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: e73422139c8f4a75b778268cb409d4e3
+run_name: inquisitive-fish-982
+run_uuid: e73422139c8f4a75b778268cb409d4e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748607247416
+status: 3
+tags: []
+user_id: Santiago

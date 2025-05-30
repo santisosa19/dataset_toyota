@@ -1,0 +1,15 @@
+digest: e0370c24
+name: dataset
+profile: '{"num_rows": 1097, "num_elements": 13164}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "age_08_04", "required": true},
+  {"type": "double", "name": "km", "required": true}, {"type": "long", "name": "hp",
+  "required": true}, {"type": "long", "name": "cc", "required": true}, {"type": "long",
+  "name": "quarterly_tax", "required": true}, {"type": "long", "name": "weight", "required":
+  true}, {"type": "long", "name": "mfr_guarantee", "required": true}, {"type": "long",
+  "name": "guarantee_period", "required": true}, {"type": "long", "name": "automatic_airco",
+  "required": true}, {"type": "long", "name": "powered_windows", "required": true},
+  {"type": "long", "name": "ft__Diesel", "required": true}, {"type": "long", "name":
+  "ft__Petrol", "required": true}]}'
+source: '{"tags": {"mlflow.user": "Santiago", "mlflow.source.name": "c:\\Users\\sosas\\anaconda3\\envs\\dataset_toyota\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

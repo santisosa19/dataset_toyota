@@ -1,0 +1,33 @@
+--- Log de Selección y Eliminación de Características ---
+
+Dataset Original - Columnas (37): ['Id', 'Model', 'Price', 'Age_08_04', 'Mfg_Month', 'Mfg_Year', 'KM', 'Fuel_Type', 'HP', 'Met_Color', 'Automatic', 'cc', 'Doors', 'Cylinders', 'Gears', 'Quarterly_Tax', 'Weight', 'Mfr_Guarantee', 'BOVAG_Guarantee', 'Guarantee_Period', 'ABS', 'Airbag_1', 'Airbag_2', 'Airco', 'Automatic_airco', 'Boardcomputer', 'CD_Player', 'Central_Lock', 'Powered_Windows', 'Power_Steering', 'Radio', 'Mistlamps', 'Sport_Model', 'Backseat_Divider', 'Metallic_Rim', 'Radio_cassette', 'Tow_Bar']
+
+Paso 1a: Eliminación Manual Inicial - Eliminadas: ['Id', 'Model']
+Paso 1a: Eliminación Manual Inicial - Eliminada: Cylinders (varianza cero)
+Paso 1c: Separación de X e Y. Target: Price_log
+  Columnas en X antes de capping (33): ['Age_08_04', 'Mfg_Month', 'Mfg_Year', 'KM', 'Fuel_Type', 'HP', 'Met_Color', 'Automatic', 'cc', 'Doors', 'Gears', 'Quarterly_Tax', 'Weight', 'Mfr_Guarantee', 'BOVAG_Guarantee', 'Guarantee_Period', 'ABS', 'Airbag_1', 'Airbag_2', 'Airco', 'Automatic_airco', 'Boardcomputer', 'CD_Player', 'Central_Lock', 'Powered_Windows', 'Power_Steering', 'Radio', 'Mistlamps', 'Sport_Model', 'Backseat_Divider', 'Metallic_Rim', 'Radio_cassette', 'Tow_Bar']
+
+Paso 1h: Después de ColumnTransformer - Features (35): ['Age_08_04', 'Mfg_Month', 'Mfg_Year', 'KM', 'HP', 'Met_Color', 'Automatic', 'cc', 'Quarterly_Tax', 'Weight', 'Mfr_Guarantee', 'BOVAG_Guarantee', 'Guarantee_Period', 'ABS', 'Airbag_1', 'Airbag_2', 'Airco', 'Automatic_airco', 'Boardcomputer', 'CD_Player', 'Central_Lock', 'Powered_Windows', 'Power_Steering', 'Radio', 'Mistlamps', 'Sport_Model', 'Backseat_Divider', 'Metallic_Rim', 'Radio_cassette', 'Tow_Bar', 'Fuel_Type_Diesel', 'Fuel_Type_Petrol', 'Doors_3', 'Doors_4', 'Doors_5']
+
+Paso 1i: Aplicando VarianceThreshold (umbral=0.01)
+  14 características eliminadas por VarianceThreshold:
+    - Mfg_Year (Varianza en X_train_transformed: 0.0000)
+    - Automatic (Varianza en X_train_transformed: 0.0000)
+    - Weight (Varianza en X_train_transformed: 0.0000)
+    - BOVAG_Guarantee (Varianza en X_train_transformed: 0.0000)
+    - Guarantee_Period (Varianza en X_train_transformed: 0.0000)
+    - ABS (Varianza en X_train_transformed: 0.0000)
+    - Airbag_1 (Varianza en X_train_transformed: 0.0000)
+    - Automatic_airco (Varianza en X_train_transformed: 0.0000)
+    - CD_Player (Varianza en X_train_transformed: 0.0000)
+    - Power_Steering (Varianza en X_train_transformed: 0.0000)
+    - Radio (Varianza en X_train_transformed: 0.0000)
+    - Backseat_Divider (Varianza en X_train_transformed: 0.0000)
+    - Metallic_Rim (Varianza en X_train_transformed: 0.0000)
+    - Radio_cassette (Varianza en X_train_transformed: 0.0000)
+
+Características Finales para PCA/Modelo (21): ['Age_08_04', 'Mfg_Month', 'KM', 'HP', 'Met_Color', 'cc', 'Quarterly_Tax', 'Mfr_Guarantee', 'Airbag_2', 'Airco', 'Boardcomputer', 'Central_Lock', 'Powered_Windows', 'Mistlamps', 'Sport_Model', 'Tow_Bar', 'Fuel_Type_Diesel', 'Fuel_Type_Petrol', 'Doors_3', 'Doors_4', 'Doors_5']
+
+Paso 2: PCA - Se seleccionan 14 Componentes Principales.
+  Estos 14 PCs son transformaciones de las 21 características de entrada.
+  Tabla de loadings (pca_loadings_selected_components.csv) logueada, mostrando cómo las 21 features contribuyen a los 14 PCs.

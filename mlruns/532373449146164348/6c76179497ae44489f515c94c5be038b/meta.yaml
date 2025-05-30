@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/532373449146164348/6c76179497ae44489f515c94c5be038b/artifacts
+end_time: 1748470800644
+entry_point_name: ''
+experiment_id: '532373449146164348'
+lifecycle_stage: active
+run_id: 6c76179497ae44489f515c94c5be038b
+run_name: Lasso_Analysis_DeepClean
+run_uuid: 6c76179497ae44489f515c94c5be038b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748470784498
+status: 3
+tags: []
+user_id: Santiago

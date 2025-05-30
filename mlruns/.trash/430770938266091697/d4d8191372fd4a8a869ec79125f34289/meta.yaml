@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/430770938266091697/d4d8191372fd4a8a869ec79125f34289/artifacts
+deleted_time: 1748289821372
+end_time: 1748289081229
+entry_point_name: ''
+experiment_id: '430770938266091697'
+lifecycle_stage: deleted
+run_id: d4d8191372fd4a8a869ec79125f34289
+run_name: Ridge_Regression_RidgeCV
+run_uuid: d4d8191372fd4a8a869ec79125f34289
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748289081044
+status: 4
+tags: []
+user_id: Santiago

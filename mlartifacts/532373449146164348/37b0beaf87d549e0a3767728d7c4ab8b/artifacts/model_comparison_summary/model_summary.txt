@@ -1,0 +1,5 @@
+Resumen Comparativo Final de Modelos Optimizados por CV (Escala Original de Price):
+- PCR_CV (N=28) (Params: 28 comps): RMSE = 1140.77, R2 = 0.9025
+- Ridge_CV (Alpha=0.5690) (Params: alpha=0.5690): RMSE = 1015.86, R2 = 0.9227
+- Lasso_CV (Alpha=0.00017) (Params: alpha=0.00017, non-zero_coefs=31): RMSE = 1017.85, R2 = 0.9224
+- LinearRegression_Ref (Params: all_features): RMSE = 1009.21, R2 = 0.9237

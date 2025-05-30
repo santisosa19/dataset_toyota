@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/164993913288935338/81c6c615595741f5b74020a465e53075/artifacts
+end_time: 1748472105256
+entry_point_name: ''
+experiment_id: '164993913288935338'
+lifecycle_stage: active
+run_id: 81c6c615595741f5b74020a465e53075
+run_name: PCR_CorrectedLog_MainRun_v5
+run_uuid: 81c6c615595741f5b74020a465e53075
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748472039268
+status: 4
+tags: []
+user_id: Santiago

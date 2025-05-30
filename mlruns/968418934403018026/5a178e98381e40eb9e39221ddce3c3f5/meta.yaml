@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/968418934403018026/5a178e98381e40eb9e39221ddce3c3f5/artifacts
+end_time: 1748289380231
+entry_point_name: ''
+experiment_id: '968418934403018026'
+lifecycle_stage: active
+run_id: 5a178e98381e40eb9e39221ddce3c3f5
+run_name: Toyota_Models_NoGridSearch_Run_v2
+run_uuid: 5a178e98381e40eb9e39221ddce3c3f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748289354565
+status: 4
+tags: []
+user_id: Santiago

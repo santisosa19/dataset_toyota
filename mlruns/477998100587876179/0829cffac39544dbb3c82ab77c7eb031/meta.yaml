@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/0829cffac39544dbb3c82ab77c7eb031/artifacts
+end_time: 1748608083169
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 0829cffac39544dbb3c82ab77c7eb031
+run_name: colorful-vole-784
+run_uuid: 0829cffac39544dbb3c82ab77c7eb031
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748608073510
+status: 3
+tags: []
+user_id: Santiago

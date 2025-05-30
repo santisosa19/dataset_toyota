@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/733231751467063119/3b967eb47eed4ab99c26a91277c3b52f/artifacts
+end_time: 1748291013439
+entry_point_name: ''
+experiment_id: '733231751467063119'
+lifecycle_stage: active
+run_id: 3b967eb47eed4ab99c26a91277c3b52f
+run_name: LassoCV_FeatureSelection_Run
+run_uuid: 3b967eb47eed4ab99c26a91277c3b52f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748291001992
+status: 3
+tags: []
+user_id: Santiago

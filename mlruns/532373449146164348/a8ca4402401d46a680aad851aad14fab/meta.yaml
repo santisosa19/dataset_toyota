@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/532373449146164348/a8ca4402401d46a680aad851aad14fab/artifacts
+end_time: 1748470488337
+entry_point_name: ''
+experiment_id: '532373449146164348'
+lifecycle_stage: active
+run_id: a8ca4402401d46a680aad851aad14fab
+run_name: Ridge_Analysis_DeepClean
+run_uuid: a8ca4402401d46a680aad851aad14fab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748470473048
+status: 3
+tags: []
+user_id: Santiago

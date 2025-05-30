@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/62ad5c3389a94ced89ae2ed7b9599fd0/artifacts
+end_time: 1748608092253
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 62ad5c3389a94ced89ae2ed7b9599fd0
+run_name: placid-colt-13
+run_uuid: 62ad5c3389a94ced89ae2ed7b9599fd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748608083450
+status: 3
+tags: []
+user_id: Santiago

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/758395361997979700/5f329da0478f4b80ad374d59e5c5f244/artifacts
+end_time: 1748289807199
+entry_point_name: ''
+experiment_id: '758395361997979700'
+lifecycle_stage: active
+run_id: 5f329da0478f4b80ad374d59e5c5f244
+run_name: Lasso_Regression_CV_Only
+run_uuid: 5f329da0478f4b80ad374d59e5c5f244
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748289796755
+status: 3
+tags: []
+user_id: Santiago

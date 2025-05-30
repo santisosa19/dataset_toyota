@@ -1,0 +1,47 @@
+artifact_path: linear_regression_standard_ref_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 1298
+model_uuid: 81de53f1edd549179035cdc816bf4259
+prompts: null
+run_id: 8eb000cf21f94486b34775f18bf8932a
+signature:
+  inputs: '[{"type": "double", "name": "Age_08_04", "required": true}, {"type": "double",
+    "name": "Mfg_Month", "required": true}, {"type": "double", "name": "KM", "required":
+    true}, {"type": "double", "name": "HP", "required": true}, {"type": "double",
+    "name": "Met_Color", "required": true}, {"type": "double", "name": "Automatic",
+    "required": true}, {"type": "double", "name": "cc", "required": true}, {"type":
+    "double", "name": "Quarterly_Tax", "required": true}, {"type": "double", "name":
+    "Mfr_Guarantee", "required": true}, {"type": "double", "name": "BOVAG_Guarantee",
+    "required": true}, {"type": "double", "name": "Guarantee_Period", "required":
+    true}, {"type": "double", "name": "ABS", "required": true}, {"type": "double",
+    "name": "Airbag_1", "required": true}, {"type": "double", "name": "Airbag_2",
+    "required": true}, {"type": "double", "name": "Airco", "required": true}, {"type":
+    "double", "name": "Automatic_airco", "required": true}, {"type": "double", "name":
+    "Boardcomputer", "required": true}, {"type": "double", "name": "CD_Player", "required":
+    true}, {"type": "double", "name": "Central_Lock", "required": true}, {"type":
+    "double", "name": "Powered_Windows", "required": true}, {"type": "double", "name":
+    "Power_Steering", "required": true}, {"type": "double", "name": "Radio", "required":
+    true}, {"type": "double", "name": "Mistlamps", "required": true}, {"type": "double",
+    "name": "Sport_Model", "required": true}, {"type": "double", "name": "Backseat_Divider",
+    "required": true}, {"type": "double", "name": "Metallic_Rim", "required": true},
+    {"type": "double", "name": "Radio_cassette", "required": true}, {"type": "double",
+    "name": "Tow_Bar", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-28 22:12:48.085068'

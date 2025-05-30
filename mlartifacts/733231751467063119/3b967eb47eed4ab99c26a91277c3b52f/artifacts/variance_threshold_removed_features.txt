@@ -1,0 +1,14 @@
+- Mfg_Year: Varianza = 0.0000
+- Automatic: Varianza = 0.0000
+- Weight: Varianza = 0.0000
+- BOVAG_Guarantee: Varianza = 0.0000
+- Guarantee_Period: Varianza = 0.0000
+- ABS: Varianza = 0.0000
+- Airbag_1: Varianza = 0.0000
+- Automatic_airco: Varianza = 0.0000
+- CD_Player: Varianza = 0.0000
+- Power_Steering: Varianza = 0.0000
+- Radio: Varianza = 0.0000
+- Backseat_Divider: Varianza = 0.0000
+- Metallic_Rim: Varianza = 0.0000
+- Radio_cassette: Varianza = 0.0000

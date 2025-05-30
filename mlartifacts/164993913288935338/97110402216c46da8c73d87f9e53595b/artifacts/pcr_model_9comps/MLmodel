@@ -1,0 +1,38 @@
+artifact_path: pcr_model_9comps
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 3048
+model_uuid: be738e6cd6e1436b8e20d892b0c0b6cc
+prompts: null
+run_id: 97110402216c46da8c73d87f9e53595b
+signature:
+  inputs: '[{"type": "double", "name": "Age_08_04", "required": true}, {"type": "double",
+    "name": "Mfg_Month", "required": true}, {"type": "double", "name": "KM", "required":
+    true}, {"type": "double", "name": "HP", "required": true}, {"type": "double",
+    "name": "Met_Color", "required": true}, {"type": "double", "name": "cc", "required":
+    true}, {"type": "double", "name": "Quarterly_Tax", "required": true}, {"type":
+    "double", "name": "Mfr_Guarantee", "required": true}, {"type": "double", "name":
+    "Airbag_2", "required": true}, {"type": "double", "name": "Airco", "required":
+    true}, {"type": "double", "name": "Boardcomputer", "required": true}, {"type":
+    "double", "name": "Central_Lock", "required": true}, {"type": "double", "name":
+    "Powered_Windows", "required": true}, {"type": "double", "name": "Mistlamps",
+    "required": true}, {"type": "double", "name": "Sport_Model", "required": true},
+    {"type": "double", "name": "Tow_Bar", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-27 12:40:11.701058'

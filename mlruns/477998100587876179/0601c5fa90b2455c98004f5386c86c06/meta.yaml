@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/0601c5fa90b2455c98004f5386c86c06/artifacts
+end_time: 1748607216035
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 0601c5fa90b2455c98004f5386c86c06
+run_name: awesome-colt-77
+run_uuid: 0601c5fa90b2455c98004f5386c86c06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748607209765
+status: 3
+tags: []
+user_id: Santiago

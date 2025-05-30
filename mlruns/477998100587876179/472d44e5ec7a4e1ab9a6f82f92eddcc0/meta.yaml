@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/472d44e5ec7a4e1ab9a6f82f92eddcc0/artifacts
+end_time: 1748605871604
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 472d44e5ec7a4e1ab9a6f82f92eddcc0
+run_name: secretive-conch-968
+run_uuid: 472d44e5ec7a4e1ab9a6f82f92eddcc0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748605858257
+status: 3
+tags: []
+user_id: Santiago

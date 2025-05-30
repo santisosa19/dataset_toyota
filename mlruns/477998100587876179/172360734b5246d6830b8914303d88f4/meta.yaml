@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/172360734b5246d6830b8914303d88f4/artifacts
+end_time: 1748607230837
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 172360734b5246d6830b8914303d88f4
+run_name: intrigued-owl-349
+run_uuid: 172360734b5246d6830b8914303d88f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748607224678
+status: 3
+tags: []
+user_id: Santiago

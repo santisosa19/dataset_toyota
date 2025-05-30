@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/0f1cd29a9d5d496aaf97d0f95d18f8ea/artifacts
+end_time: 1748624042129
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 0f1cd29a9d5d496aaf97d0f95d18f8ea
+run_name: glamorous-hog-331
+run_uuid: 0f1cd29a9d5d496aaf97d0f95d18f8ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748624029960
+status: 3
+tags: []
+user_id: Santiago

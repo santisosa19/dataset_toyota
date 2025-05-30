@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/477998100587876179/9626b85bb249465aaa524eb15a6b4e98/artifacts
+end_time: 1748607238273
+entry_point_name: ''
+experiment_id: '477998100587876179'
+lifecycle_stage: active
+run_id: 9626b85bb249465aaa524eb15a6b4e98
+run_name: enchanting-cow-794
+run_uuid: 9626b85bb249465aaa524eb15a6b4e98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748607232077
+status: 3
+tags: []
+user_id: Santiago
