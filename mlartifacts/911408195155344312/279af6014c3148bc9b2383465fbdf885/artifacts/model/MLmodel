@@ -1,0 +1,50 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 1720
+model_uuid: cea18a1c6e534ea8b45e0b1d6a34fc16
+prompts: null
+run_id: 279af6014c3148bc9b2383465fbdf885
+signature:
+  inputs: '[{"type": "long", "name": "age_08_04", "required": true}, {"type": "long",
+    "name": "mfg_month", "required": true}, {"type": "long", "name": "mfg_year", "required":
+    true}, {"type": "double", "name": "km", "required": true}, {"type": "long", "name":
+    "hp", "required": true}, {"type": "long", "name": "met_color", "required": true},
+    {"type": "long", "name": "automatic", "required": true}, {"type": "long", "name":
+    "cc", "required": true}, {"type": "long", "name": "doors", "required": true},
+    {"type": "long", "name": "gears", "required": true}, {"type": "long", "name":
+    "quarterly_tax", "required": true}, {"type": "long", "name": "weight", "required":
+    true}, {"type": "long", "name": "mfr_guarantee", "required": true}, {"type": "long",
+    "name": "bovag_guarantee", "required": true}, {"type": "long", "name": "guarantee_period",
+    "required": true}, {"type": "long", "name": "abs", "required": true}, {"type":
+    "long", "name": "airbag_1", "required": true}, {"type": "long", "name": "airbag_2",
+    "required": true}, {"type": "long", "name": "airco", "required": true}, {"type":
+    "long", "name": "automatic_airco", "required": true}, {"type": "long", "name":
+    "boardcomputer", "required": true}, {"type": "long", "name": "cd_player", "required":
+    true}, {"type": "long", "name": "central_lock", "required": true}, {"type": "long",
+    "name": "powered_windows", "required": true}, {"type": "long", "name": "power_steering",
+    "required": true}, {"type": "long", "name": "radio", "required": true}, {"type":
+    "long", "name": "mistlamps", "required": true}, {"type": "long", "name": "sport_model",
+    "required": true}, {"type": "long", "name": "backseat_divider", "required": true},
+    {"type": "long", "name": "metallic_rim", "required": true}, {"type": "long", "name":
+    "radio_cassette", "required": true}, {"type": "long", "name": "tow_bar", "required":
+    true}, {"type": "long", "name": "ft__Diesel", "required": true}, {"type": "long",
+    "name": "ft__Petrol", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-30 17:49:56.837298'

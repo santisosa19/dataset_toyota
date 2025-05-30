@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/911408195155344312/f8a0752727e24942817d636eb8842277/artifacts
+end_time: 1748627453145
+entry_point_name: ''
+experiment_id: '911408195155344312'
+lifecycle_stage: active
+run_id: f8a0752727e24942817d636eb8842277
+run_name: pca_model
+run_uuid: f8a0752727e24942817d636eb8842277
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748627446286
+status: 3
+tags: []
+user_id: Santiago

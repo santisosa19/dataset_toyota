@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/911408195155344312/bdb7f0f7270d4ca2b4d1f4a6007d1437/artifacts
+end_time: 1748627312897
+entry_point_name: ''
+experiment_id: '911408195155344312'
+lifecycle_stage: active
+run_id: bdb7f0f7270d4ca2b4d1f4a6007d1437
+run_name: fs_model_85_10
+run_uuid: bdb7f0f7270d4ca2b4d1f4a6007d1437
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748627305672
+status: 3
+tags: []
+user_id: Santiago

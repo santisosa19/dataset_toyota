@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/911408195155344312/21aba19d6ad34b9dbe3dadf56f0bfe7d/artifacts
+end_time: 1748627432825
+entry_point_name: ''
+experiment_id: '911408195155344312'
+lifecycle_stage: active
+run_id: 21aba19d6ad34b9dbe3dadf56f0bfe7d
+run_name: ridge_model
+run_uuid: 21aba19d6ad34b9dbe3dadf56f0bfe7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748627424775
+status: 3
+tags: []
+user_id: Santiago

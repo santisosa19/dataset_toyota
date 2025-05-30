@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/911408195155344312/29788282667b42d18db371ae769b081e/artifacts
+end_time: 1748627446105
+entry_point_name: ''
+experiment_id: '911408195155344312'
+lifecycle_stage: active
+run_id: 29788282667b42d18db371ae769b081e
+run_name: luminous-lynx-568
+run_uuid: 29788282667b42d18db371ae769b081e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748627440129
+status: 3
+tags: []
+user_id: Santiago
