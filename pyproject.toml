@@ -28,8 +28,13 @@ dependencies = [
     "tzdata (>=2025.2,<2026.0)",
     "psycopg2 (>=2.9.10,<3.0.0)",
     "psycopg2-binary (>=2.9.10,<3.0.0)",
-    "statsmodels (>=0.14.4,<0.15.0)"
+    "statsmodels (>=0.14.4,<0.15.0)",
+    "papermill (>=2.6.0,<3.0.0)"
 ]
+
+[tool.dagster]
+module_name = "dataset_toyota.definitions"
+code_location_name = "dataset_toyota"
 
 
 [build-system]
