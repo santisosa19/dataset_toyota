@@ -1,5 +1,7 @@
 # dataset_toyota
-
+Integrantes:
+- Zurita, Matias
+- Sosa, Santiago
 
 Para iniciar proyecto
 
